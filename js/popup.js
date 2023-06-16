@@ -10,11 +10,11 @@ openPopupButtons.forEach((button) => {
 
 
 
-document.addEventListener('click', (e) => { 
-  if(e.target === popupBg) { // Если цель клика - фон, то:
-      popup.classList.remove('call-form--active'); // И с окна
-  };
-});
+// document.addEventListener('click', (e) => { 
+//   if(e.target === popup) { // Если цель клика - фон, то:
+//       popup.classList.remove('call-form--active'); // И с окна
+//   };
+// });
 
 
 
